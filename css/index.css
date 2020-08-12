@@ -1,0 +1,39 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px;
+}
+
+
+
+svg{
+    margin: 20px auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5px;
+}   
+
+
+#description{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+
+#tooltip{
+    visibility: hidden;
+    position: absolute;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: rgba(238, 255, 0, 0.5);
+    color: black;
+    box-shadow: gray 5px 10px 3px;
+    margin: 0px;
+    z-index: 2;
+}
